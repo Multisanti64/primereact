@@ -140,7 +140,7 @@ export class Chips extends Component {
                     event.preventDefault();
                 }
                 else if (this.props.separator) {
-                    if (this.props.separator === ',' && event.which === 188) {
+                    if (this.props.separator === ',' && event.key === ',') {
                         this.addItem(event, inputValue, true);
                     }
                 }
